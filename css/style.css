@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ysabeau+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    background-color: whitesmoke;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+}
+
+/*----RESET----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*----HEADER----*/
+header{
+    padding: 10px;
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header nav h1{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+header nav a{
+    text-decoration: none;
+}
+header nav ul{
+    color: black;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+header nav ul li{
+    color: black;
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+header nav ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+header nav form{
+    color: black;
+    font-size: 20px;
+}
+
+
+/*----MAIN----*/
+
+.hero{
+    width: 100%;
+    height: calc(80vh);
+    background-image: url(../img/mitch-rosen-g9SNY0aLMF0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+    text-align: center;
+}
+.hero h2{
+    color: whitesmoke;
+    font-size: 70px;
+    border: 2px black;
+    text-align: center;
+}
+.hero p{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicios div img{
+    width: 300px;
+    height: 250px;
+}
+
+.servicios div{
+    width: 300px;
+    height: 310px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
+-webkit-box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
+-moz-box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
+}
+
+.servicios h3{ 
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.589);
+    font-size: 20px;
+}
+
+.servicios div a{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    background-color: whitesmoke;
+}
+
+.boton:hover{
+    background-color: rgba(0, 255, 255, 0.411);
+}
+
+.boton:active{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.position{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+
+.position img{
+    width: 50px;
+}
+
+.formulario{
+    text-align: center;
+    background-color: rgba(36, 49, 49, 0.5);
+}
+
+.nosotros{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.nosotros p{
+    font-size: 30px;
+}
+
+.nosotros img{
+    width: 500px;
+    height: 500px;
+}
+
+main h2{
+    font-size: 50px;
+    text-align: left;
+}
+
+.gale{
+    font-size: 40px;
+    text-align: center;
+}
+
+.grid-galeria{
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 15px;
+}
+
+.grid-item{
+    box-shadow: 23px 15px 45px 4px rgba(17, 23, 38, 0.65);
+    -webkit-box-shadow: 23px 15px 45px 4px rgba(25, 33, 51, 0.65);
+    -moz-box-shadow: 23px 15px 45px 4px rgba(13, 18, 29, 0.65);
+    position: relative;
+}
+
+.grid-item h3{
+    position: absolute;
+    bottom: 0;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 100%;
+    text-align: center;
+
+}
+
+.img-4{
+    grid-column: span 2;
+}
+
+.img-3{
+    grid-row: span 2;
+}
+
+.img-9{
+    grid-column: span 2;
+}
+
+.grid-galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/*----FOOTER----*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer div a img{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width:1200px){
+    .servicios{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:950px){
+    .grid-galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+    }
+    .nosotros{
+        flex-direction: column;
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img-9{
+        grid-column: span 2;
+    }
+    .position{
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px){
+    footer{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px){
+    header{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:450px){
+    .grid-galeria{
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}

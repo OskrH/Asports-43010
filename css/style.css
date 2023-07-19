@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ysabeau+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-html{
-    background-color: whitesmoke;
-    font-family: 'Ysabeau Infant', sans-serif;
-font-family: 'Ysabeau SC', sans-serif;
-}
 
 /*----RESET----*/
 *{
@@ -15,48 +10,15 @@ font-family: 'Ysabeau SC', sans-serif;
 
 
 /*----HEADER----*/
+
 header{
-    padding: 10px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
 }
 
-header nav{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
+header nav div form{
+    color: white;
 }
-
-header nav h1{
-    color: black;
-    font-size: 50px;
-    text-decoration: none;
-    text-align: center;
-}
-header nav a{
-    text-decoration: none;
-}
-header nav ul{
-    color: black;
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-}
-header nav ul li{
-    color: black;
-    list-style: none;
-    padding: 5px;
-    font-size: 20px;
-    text-decoration: none;
-}
-header nav ul li a{
-    list-style: none;
-    text-decoration: none;
-}
-header nav form{
-    color: black;
-    font-size: 20px;
-}
-
-
 /*----MAIN----*/
 
 .hero{
@@ -73,18 +35,24 @@ header nav form{
 .hero h2{
     color: whitesmoke;
     font-size: 70px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
     border: 2px black;
     text-align: center;
 }
 .hero p{
     color: whitesmoke;
     font-size: 30px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
 }
 
 h2{
     text-align: center;
     padding: 10px;
     font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
 }
 
 .servicios{
@@ -114,6 +82,8 @@ h2{
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.589);
     font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
 }
 
 .servicios div a{
@@ -234,7 +204,7 @@ footer div a img{
     height: 50px;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1000px){
     .servicios{
         flex-direction: column;
     }
@@ -265,12 +235,6 @@ footer div a img{
 
 @media screen and (max-width:700px){
     footer{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width:500px){
-    header{
         flex-direction: column;
     }
 }

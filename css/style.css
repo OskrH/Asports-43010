@@ -21,36 +21,22 @@ header nav div form{
 }
 /*----MAIN----*/
 
-.hero{
-    width: 100%;
-    height: calc(80vh);
-    background-image: url(../img/mitch-rosen-g9SNY0aLMF0-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: whitesmoke;
-    text-align: center;
-}
-.hero h2{
-    color: whitesmoke;
-    font-size: 70px;
-    font-family: 'Ysabeau Infant', sans-serif;
-font-family: 'Ysabeau SC', sans-serif;
-    border: 2px black;
-    text-align: center;
-}
-.hero p{
-    color: whitesmoke;
-    font-size: 30px;
-    font-family: 'Ysabeau Infant', sans-serif;
-font-family: 'Ysabeau SC', sans-serif;
-}
-
 h2{
     text-align: center;
     padding: 10px;
     font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+}
+
+.hero div h5{
+    font-size: 70px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+}
+
+.hero div p{
+    font-size: 30px;
     font-family: 'Ysabeau Infant', sans-serif;
 font-family: 'Ysabeau SC', sans-serif;
 }
@@ -91,6 +77,11 @@ font-family: 'Ysabeau SC', sans-serif;
     text-decoration: none;
     color:black;
     background-color: whitesmoke;
+}
+
+.cartas{
+    display: flex;
+    justify-content: space-around;
 }
 
 .boton:hover{
@@ -204,7 +195,7 @@ footer div a img{
     height: 50px;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1100px){
     .servicios{
         flex-direction: column;
     }

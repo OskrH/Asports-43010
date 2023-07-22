@@ -29,6 +29,12 @@ h2{
 font-family: 'Ysabeau SC', sans-serif;
 }
 
+P{
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+}
+
 .hero div h5{
     font-size: 70px;
     font-family: 'Ysabeau Infant', sans-serif;
@@ -82,6 +88,17 @@ font-family: 'Ysabeau SC', sans-serif;
 .cartas{
     display: flex;
     justify-content: space-around;
+}
+
+.cartas div div h5{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+}
+
+.card{
+    background-color: rgba(128, 128, 128, 0.238);
 }
 
 .boton:hover{

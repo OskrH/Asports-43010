@@ -68,6 +68,11 @@ font-family: 'Ysabeau SC', sans-serif;
     box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
 -webkit-box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
 -moz-box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
+transition: 1s;
+}
+
+.servicios div:hover{
+    transform: scale(1.1);
 }
 
 .servicios h3{ 

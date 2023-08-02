@@ -1,0 +1,64 @@
+.hero{
+    div{
+        img{
+
+        }
+        div{
+
+            h5{
+                font-size: 70px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+            }
+            p{
+                font-size: 30px;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+                
+            }
+        }
+    }
+}
+
+h2{
+    font-size: 50px;
+    text-align: left;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 300px;
+        height: 310px;
+        border: 1px solid black;
+        text-align: center;
+        margin: 20px;
+        display: inline-block;
+        border-radius: 7px;
+        box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
+    -webkit-box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
+    -moz-box-shadow: 23px 15px 45px 4px rgba(28,64,147,0.65);
+    transition: 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+        img{
+            width: 300px;
+            height: 250px;
+        }
+        }
+        h3{
+            color: whitesmoke;
+            background-color: rgba(0, 0, 0, 0.589);
+            font-size: 20px;
+            font-family: 'Ysabeau Infant', sans-serif;
+        font-family: 'Ysabeau SC', sans-serif;
+        }
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color:black;
+            background-color: whitesmoke;
+        }
+    }

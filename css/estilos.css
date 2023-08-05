@@ -60,6 +60,83 @@ h2 {
     text-decoration: none;
     color: black;
     background-color: whitesmoke; }
+    .servicios a:hover {
+      background-color: grey; }
+    .servicios a:active {
+      background-color: grey;
+      color: whitesmoke; }
+
+.position img {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 100px;
+  right: 50px; }
+
+.cartas {
+  display: flex;
+  justify-content: space-around; }
+  .cartas div div h5 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif; }
+
+.card {
+  background-color: rgba(128, 128, 128, 0.238); }
+
+.formulario {
+  margin: 10px;
+  padding: 50px;
+  background-color: rgba(128, 128, 128, 0.495);
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif; }
+
+.ubicacion {
+  display: flex;
+  justify-content: space-around; }
+
+.nosotros {
+  display: flex;
+  text-align: center;
+  justify-content: space-around; }
+  .nosotros p {
+    font-size: 30px; }
+  .nosotros img {
+    width: 400px;
+    height: 700px;
+    margin-right: 5px; }
+
+.gale {
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif; }
+
+.grid-galeria {
+  margin-top: 50px;
+  width: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px; }
+  .grid-galeria img {
+    width: 10px;
+    height: 10px;
+    object-fit: cover; }
+
+.grid-item {
+  box-shadow: 23px 15px 45px 4px rgba(17, 23, 38, 0.65);
+  -webkit-box-shadow: 23px 15px 45px 4px rgba(25, 33, 51, 0.65);
+  -moz-box-shadow: 23px 15px 45px 4px rgba(13, 18, 29, 0.65);
+  position: relative; }
+  .grid-item h3 {
+    position: absolute;
+    bottom: 0;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 100%;
+    text-align: center; }
 
 footer {
   display: flex;
@@ -68,6 +145,9 @@ footer {
   margin-top: 20px;
   padding: 10px;
   background-color: rgba(128, 128, 128, 0.574); }
+
+h2 {
+  font-size: 30px; }
 
 div a img {
   width: 30px;

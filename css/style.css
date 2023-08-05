@@ -8,12 +8,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Ysabeau Infant', sans-serif;
-font-family: 'Ysabeau SC', sans-serif;
-}
-
-
 /*----HEADER----*/
 
 header{
@@ -95,9 +89,14 @@ font-family: 'Ysabeau SC', sans-serif;
     background-color: whitesmoke;
 }
 
+.position img{
+    width: 10px;
+    height: 30px;
+}
+
 .cartas{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly
 }
 
 .cartas div div h5{
@@ -119,7 +118,6 @@ font-family: 'Ysabeau SC', sans-serif;
     background-color: grey;
     color: whitesmoke;
 }
-
 .position{
     position: fixed;
     bottom: 100px;
@@ -154,8 +152,9 @@ font-family: 'Ysabeau SC', sans-serif;
 }
 
 .nosotros img{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 700px;
+    margin-right: 5px;
 }
 
 main h2{

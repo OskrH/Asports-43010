@@ -1,0 +1,37 @@
+
+$color-primario: Black;
+$color-secundario: white;
+$color-terciario: whitesmoke;
+$color-cuaternario: grey;
+$color-quinto: rgba(128, 128, 128, 0.574);
+
+$paleta-colores:
+blue,
+brown,
+green,
+aqua;
+
+
+$font-size:
+10px,
+15px,
+20px,
+25px,
+30px,
+40px,
+50px,
+60px,
+70px;
+
+%flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    text-align: $align;
+}
+

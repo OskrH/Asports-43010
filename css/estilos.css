@@ -15,8 +15,8 @@ header {
   header nav div div form {
     color: white; }
 
-.hero div div h5 {
-  font-size: 70px;
+.hero div div h1 {
+  font-size: 50px;
   font-family: 'Ysabeau Infant', sans-serif;
   font-family: 'Ysabeau SC', sans-serif; }
 
@@ -28,6 +28,9 @@ header {
 h2 {
   font-size: 50px;
   text-align: left; }
+
+p {
+  font-size: 20px; }
 
 .servicios {
   display: flex;
@@ -58,7 +61,7 @@ h2 {
   .servicios a {
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: Black;
     background-color: whitesmoke; }
     .servicios a:hover {
       background-color: grey; }
@@ -76,7 +79,7 @@ h2 {
 .cartas {
   display: flex;
   justify-content: space-around; }
-  .cartas div div h5 {
+  .cartas div div h3 {
     font-size: 20px;
     font-style: italic;
     font-family: 'Ysabeau Infant', sans-serif;
@@ -98,8 +101,8 @@ h2 {
 
 .nosotros {
   display: flex;
-  text-align: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  text-align: center; }
   .nosotros p {
     font-size: 30px; }
   .nosotros img {
@@ -115,14 +118,14 @@ h2 {
 
 .grid-galeria {
   margin-top: 50px;
-  width: 10px;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 250px;
   gap: 15px; }
   .grid-galeria img {
-    width: 10px;
-    height: 10px;
+    width: 100%;
+    height: 100%;
     object-fit: cover; }
 
 .grid-item {
@@ -138,6 +141,20 @@ h2 {
     width: 100%;
     text-align: center; }
 
+.img-4 {
+  grid-column: span 2; }
+
+.img-3 {
+  grid-row: span 2; }
+
+.img-9 {
+  grid-column: span 2; }
+
+.grid-galeria div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -146,8 +163,8 @@ footer {
   padding: 10px;
   background-color: rgba(128, 128, 128, 0.574); }
 
-h2 {
-  font-size: 30px; }
+h4 {
+  font-size: 25px; }
 
 div a img {
   width: 30px;
@@ -180,10 +197,10 @@ div a img {
     flex-direction: column; } }
 
 @media screen and (max-width: 600px) {
-  .hero div h5 {
-    font-size: 20px; }
-  .hero div p {
-    font-size: 10px; } }
+  .hero div div h1 {
+    font-size: 30px; }
+  .hero div div p {
+    font-size: 15px; } }
 
 @media screen and (max-width: 450px) {
   .grid-galeria {

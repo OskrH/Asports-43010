@@ -38,13 +38,12 @@
         flex-direction: column;
     }
 }
-
 @media screen and (max-width: 600px){
-    .hero div div h1{
-        font-size: 30px;
+    .content h1{
+        font-size: 50px;
     }
-    .hero div div p{
-font-size: 15px;
+    .content p{
+        font-weight: 100;
     }
 }
 

@@ -116,6 +116,9 @@ h2 {
 p {
   font-size: 20px; }
 
+#fondo {
+  background-color: whitesmoke; }
+
 .servicios {
   display: flex;
   justify-content: space-between; }
@@ -278,10 +281,10 @@ div a img {
     flex-direction: column; } }
 
 @media screen and (max-width: 600px) {
-  .hero div div h1 {
-    font-size: 30px; }
-  .hero div div p {
-    font-size: 15px; } }
+  .content h1 {
+    font-size: 50px; }
+  .content p {
+    font-weight: 100; } }
 
 @media screen and (max-width: 450px) {
   .grid-galeria {

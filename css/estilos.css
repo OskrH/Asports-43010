@@ -70,7 +70,7 @@ header {
   color: #fff; }
 
 .content-in h1 {
-  font-size: 90px;
+  font-size: 50px;
   margin-top: 80px; }
 
 .content-in p {
@@ -281,9 +281,9 @@ div a img {
     flex-direction: column; } }
 
 @media screen and (max-width: 600px) {
-  .content h1 {
+  .content-in h1 {
     font-size: 50px; }
-  .content p {
+  .content-in p {
     font-weight: 100; } }
 
 @media screen and (max-width: 450px) {

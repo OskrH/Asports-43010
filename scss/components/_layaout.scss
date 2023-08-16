@@ -40,7 +40,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: #96001b;
+    background: $color-cuaternario;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -51,7 +51,7 @@
     width: 100%;
 }
 
-.content {
+.content-in {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -60,25 +60,25 @@
     color: #fff;
 }
 
-.content h1 {
+.content-in h1 {
     font-size: 90px;
     margin-top: 80px;
 }
 
-.content p {
+.content-in p {
     margin: 20px auto;
     font-weight: 150;
     line-height: 25px;
 }
 
-button {
+.boton-in button {
     width: 200px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #d5050c;
+    border: 2px solid $color-cuaternario;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -86,8 +86,8 @@ button {
     overflow: hidden;
 }
 
-span {
-    background: #be0407;
+.boton-in span {
+    background: $color-cuaternario;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -98,11 +98,11 @@ span {
     transition: 0.5s;
 }
 
-button:hover span {
+.boton-in button:hover span {
     width: 100%;
 }
 
-button:hover {
+.boton-in button:hover {
     border: none;
 }
 h2 {
@@ -114,7 +114,7 @@ p{
     font-size: 20px;
 }
 
-#fondo{
+#fondo-in {
     background-color: whitesmoke;
 }
 
@@ -124,7 +124,7 @@ p{
 
     div {
         width: 300px;
-        height: 330px;
+        height: 320px;
         border: 1px solid black;
         text-align: center;
         margin: 20px;
